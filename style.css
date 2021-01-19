@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 0.6); 
 }
 
 .d-bloc .a-btn:hover,
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px; /*modifé de 11 à 12px*/
 }
 
 .tight-width-whitespace {
@@ -701,7 +701,12 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 25px auto 25px auto; /*modifié de auto à 25px*/
+}
+
+li {
+    margin-top : 4px; /*modifié pour la liste du bas*/
+    margin-bottom:4px;
 }
 
 h2 {
