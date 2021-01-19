@@ -13,10 +13,11 @@ button {
     outline: none!important;
 }
 
-a:hover {
-    text-decoration: none;
-    cursor: pointer;
-}
+    a:hover {
+        text-decoration: none;
+        cursor: pointer;
+        color: #575757 /*modifié*/
+    }
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black; /*!important et changé #575757 en black*/
 }
 
 .container {
@@ -708,6 +709,8 @@ li {
     margin-top : 4px; /*modifié pour la liste du bas*/
     margin-bottom:4px;
 }
+
+
 
 h2 {
     font-size: 22px;
