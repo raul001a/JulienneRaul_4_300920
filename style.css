@@ -477,8 +477,9 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
-    color:black /*modifié pour l'accessibilité*/
+    font-size: 30px !important;
+    color: black; /*modifié pour l'accessibilité*/
+    margin-top: 20px; /*modifié pour l'accessibilité*/
 }
 
 .icon-lg {
@@ -707,17 +708,18 @@ p {
 
 .social {
     max-width: 400px;
-    margin: 25px auto 25px auto; /*modifié de auto à 25px*/
+    margin: 25px auto 50px auto; /*modifié de auto à 25px*/
     
 }
 
 li {
-    margin-top : 4px; /*modifié pour la liste du bas*/
-    margin-bottom:4px;
+    margin-top : 10px; /*modifié pour la liste du bas*/
+    margin-bottom:10px;
 }
 
-.col-sm-4 
-{color:black;} /*ajouté*/
+.col-sm-4 {
+    color:black;
+} /*ajouté*/
 
 
 h2 {
