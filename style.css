@@ -19,6 +19,12 @@ button {
         color: white  /*modifié, pour dans la liste li*/
     }
 
+ .titre-footer /*modif:ajout*/ {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333 !important;
+}
+    
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
