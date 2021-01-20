@@ -478,12 +478,16 @@ button {
 
 .icon-md {
     font-size: 30px !important;
-    color: black; /*modifié pour l'accessibilité*/
+    color: #333333; /*modifié pour l'accessibilité*/
     margin-top: 20px; /*modifié pour l'accessibilité*/
 }
 
+.liste-site /*modif : ajout*/ {
+    color:#333333; /*voir pour mettre black ?*/
+}
+
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px !important;
 }
 
 .sm-shadow {
@@ -717,9 +721,7 @@ li {
     margin-bottom:10px;
 }
 
-.col-sm-4 {
-    color:black;
-} /*ajouté*/
+
 
 
 h2 {
@@ -798,8 +800,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: black !important; /*modification faite pour accessibilité*/
-    
+    color: #333333 !important; /*modification faite pour accessibilité*/
 }
 
     .btn-atomic-tangerine:hover {
