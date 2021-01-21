@@ -20,13 +20,14 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	-->
-
-	<!--ci-dessous les script collés de la page index-->
+	<!--ci-dessous les script collés de la page index et ajout de formHandler et Bootstrap-->
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
+	<script src="./js/formHandler.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
 
 	<!--si je supprime les script et je mets les même que la page index
 		<script src="./js/jquery-2.1.0.min.js"></script>
@@ -100,7 +101,7 @@
 			<div class="container bloc-lg ">
 				<div class="row">
 					<div class="col-sm-6 text-center "> <!-- text-center ajouter pour centrer le bouton, mais attention centre aussi les labels-->
-						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1" novalidate success-msg="Votre message a bien été envoyé. Nous y répondrons au plus vite" fail-msg="Nous rencontrons actuellement un problème, merci de rééssayer plus tard!">
 							<div class="form-group text-left"> <!--ajout text-left-->
 								<label>
 									Nom
@@ -117,7 +118,7 @@
 								<label>
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control text-left" type="email" required id="input_504" />
+								<input class="form-control text-left" required id="input_504" /> <!--suppression type="email"-->
 							</div>
 							<div class="form-group text-left">
 								<label>
