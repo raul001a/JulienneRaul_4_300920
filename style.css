@@ -24,6 +24,8 @@ button {
     font-weight: 700;
     color: #333333 !important;
 }
+
+
     
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -488,9 +490,7 @@ button {
     margin-top: 20px; /*modifié pour l'accessibilité*/
 }
 
-.liste-site /*modif : ajout*/ {
-    color:#333333; 
-}
+
 
 .icon-lg {
     font-size: 60px !important;
@@ -667,9 +667,11 @@ a {
     color: #575757; /*!important*/
 }
 
+
 a {
-    color:black; /*ajouté*/
+    color:#333333; /*ajouté*/
 }
+
 
 .container {
     max-width: 1000px;
@@ -723,7 +725,7 @@ p {
 }
 
 li {
-    margin-top : 10px; /*modifié pour la liste du bas*/
+    margin-top : 10px; 
     margin-bottom:10px;
 }
 
