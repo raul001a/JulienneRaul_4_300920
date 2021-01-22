@@ -20,12 +20,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	-->
-
 	<!--ci-dessous les script collés de la page index et ajout de formHandler et Bootstrap-->
-	<script src="./js/jquery-2.1.0.js" ></script>
-	<script src="./js/bootstrap.js" ></script>
-	<script src="./js/blocs.js" ></script>
-	<script src="./js/jquery.touchSwipe.js" ></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js"></script>
 	<!--<script src="./js/gmaps.js"></script>-->
 	<script src="./js/formHandler.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
@@ -38,11 +37,11 @@
 		<script src="./js/jqBootstrapValidation.js"></script>
 
 		<script src="./js/formHandler.js"></script>
-		<title>La Chouette agence - Contact</title>
 		-->
+	<title>La Chouette agence - Contact</title>
+
 	<!-- Analytics -->
 	<!-- Analytics END -->
-
 </head>
 <body>
 <!-- Principal conteneur -->
@@ -107,25 +106,25 @@
 							<form id="form_1" novalidate success-msg="Votre message a bien été envoyé. Nous y répondrons au plus vite" fail-msg="Nous rencontrons actuellement un problème, merci de rééssayer plus tard!">
 								<div class="form-group text-left">
 									<!--ajout text-left-->
-									<label>
+									<label for="name">
 										Nom
 									</label>
 									<input id="name" class="form-control" required />
 								</div>
 								<div class="form-group text-left">
-									<label>
+									<label for="email">
 										Adresse email
 									</label>
 									<input id="email" class="form-control" type="email" required />
 								</div>
 								<div class="form-group text-left">
-									<label>
+									<label for="input_504">
 										Comment nous avez-vous connu ?
 									</label>
 									<input class="form-control text-left" required id="input_504" /> <!--suppression type="email"-->
 								</div>
 								<div class="form-group text-left">
-									<label>
+									<label for="message">
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 									</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 								</div>

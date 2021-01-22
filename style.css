@@ -1114,3 +1114,16 @@ h4 {
             text-align: center;
         }
     }
+
+    /*essai pour les focus pour accessibilité*/
+a:focus {
+    border: 2px #F3976C dotted;
+}
+
+.btn-atomic-tangerine:focus {
+    border:2px red dotted;
+}
+
+.social:focus {
+    border: 2px red dotted;
+}
