@@ -43,7 +43,7 @@ button {
     padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; 
     background-size: cover;
     position: relative;
 }
@@ -521,6 +521,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    
 }
 
 .scrollToTop {
@@ -780,7 +781,7 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background { /*a modifier*/
+.black-background { /*modifier*/
     background-color: rgba(54,69,119,0.6)  ; /*rgba(165, 147, 99, 0.7);*/ 
     padding: 40px 40px 40px 40px;
 }
@@ -888,13 +889,15 @@ h4 {
         }
     }
 
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /*modif ligne 894 et 900 enlever min-device et max-device*/
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
         .b-parallax {
             background-attachment: scroll;
         }
     }
 
-    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
         .b-parallax {
             background-attachment: scroll;
         }
@@ -916,8 +919,8 @@ h4 {
         }
 
         .bloc {
-            padding-left: constant(safe-area-inset-left);
-            padding-right: constant(safe-area-inset-right);
+            /*padding-left: constant(safe-area-inset-left);
+            padding-right: constant(safe-area-inset-right);*/
         }
 
         .bloc-group,
@@ -929,8 +932,8 @@ h4 {
         .bloc-fill-screen .fill-bloc-top-edge,
         .bloc-fill-screen .fill-bloc-bottom-edge {
             padding: 0 20px;
-            padding-left: constant(safe-area-inset-left);
-            padding-right: constant(safe-area-inset-right);
+            /*padding-left: constant(safe-area-inset-left);
+            padding-right: constant(safe-area-inset-right);*/
         }
     }
 
@@ -1115,7 +1118,7 @@ h4 {
         }
     }
 
-    /*essai pour les focus pour accessibilité*/
+    /*pour les focus pour accessibilité*/
 a:focus {
     border: 2px #F3976C dotted;
 }
